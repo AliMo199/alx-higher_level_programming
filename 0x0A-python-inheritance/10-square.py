@@ -1,16 +1,16 @@
 #!/usr/bin/python3
-"""Defines a Rectangle subclass Square."""
+"""Define Rectangle subclass Square."""
 Rectangle = __import__('9-rectangle').Rectangle
 
 
 class Square(Rectangle):
-    """Represent a square."""
+    """Represent square."""
 
     def __init__(self, size):
-        """Initialize a new square.
+        """Initialize new square.
 
         Args:
-            size (int): The size of the new square.
+            size (int): size of new square.
         """
         self.integer_validator("size", size)
         super().__init__(size, size)
