@@ -1,2 +1,2 @@
--- Prints the full description of the table first_table in my MySQL server.
+-- Print full description of table first_table in the MySQL server.
 SHOW CREATE TABLE `first_table`;
