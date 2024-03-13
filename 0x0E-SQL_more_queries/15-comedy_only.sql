@@ -1,5 +1,5 @@
--- lists all Comedy shows in the database hbtn_0d_tvshows
--- lists all rows of a database corresponding to a column value
+-- list all Comedy shows in database hbtn_0d_tvshows
+-- list all rows of database corresponding to column value
 SELECT title
 FROM tv_shows
 LEFT JOIN tv_show_genres ON tv_shows.id = tv_show_genres.show_id
